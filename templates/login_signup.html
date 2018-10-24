@@ -1,0 +1,26 @@
+<div id="forms">
+<button type="button" class="toggleForm" id=login>Login</button>
+<button type="button" class="toggleForm" id="signUp">SignUp</button>
+<form class="form" id="loginForm" action="/api/tokens" method="post">
+  <label for="name">Name</label>
+  <input id="name"type="text" name="name">
+  <label for="password">Password</label>
+  <input id="password" type="password" name="password" placeholder="*******">
+  <button type="submit">Go!</button>
+</form>
+<form class="form" id="signUpForm" action="/api/users" method="post">
+  <label for="newName">Name</label>
+  <input id="newName"type="text" name="name">
+  <label for="newEmailAddress">Email Address</label>
+  <input id="newEmailAddress"type="email" name="emailAddress">
+  <label for="newStreetAddress">Address</label>
+  <input id="newStreetAddress"type="text" name="streetAddress" placeholder="street">
+  <input id="newStreetAddress2"type="text" name="streetAddress2" placeholder="house number">
+  <label for="newPassword">Password</label>
+  <input id="newPassword"type="password" name="password" placeholder="*******">
+  <label for="newPasswordCheck">Repeat Password</label>
+  <input id="newPasswordCheck"type="password" name="repeatPassword" placeholder="*******">
+  <button type="submit">Go!</button>
+</form>
+</div>
+<script type="text/javascript" src="public/login.js"></script>

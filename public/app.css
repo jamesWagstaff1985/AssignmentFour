@@ -1,0 +1,140 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#navigation{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #F9DA6E;
+}
+
+#navigation img{
+  height: 150px;
+  margin-left:  30px;
+  display: inline-block;
+}
+#navigation ul{
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+#navigation ul li a{
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #B52525;
+}
+#navigation ul li a:hover{
+  color: #46B170;
+}
+#navigation li{
+  display: inline-block;
+}
+
+#loggedInState{
+  text-transform: capitalize;
+}
+
+/* Menu */
+#menu h2{
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+}
+#menu h3{
+  margin: 50px 50px 25px 50px;
+  font-size: 2rem;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #bbb;
+  position:relative;
+}
+.card:hover{
+  box-shadow: 3px 3px 3px #bbb;
+  cursor: pointer;
+}
+.card img{
+  width: 250px;
+  height: 250px;
+}
+.card p{
+  margin: 10px;
+  font-size: 0.8rem;
+  color: #bbb;
+}
+.mask{
+  display: none;
+  position: absolute;
+  top: 0px;
+  background-color: #ddd;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.mask button{
+  border-radius: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  left: 17%;
+  top: 45%;
+}
+
+#itemsInBasket{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* Login and signup forms */
+.form{
+  border: 1px solid #ccc;
+  margin: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 2px 2px 2px #eee;
+}
+.form input{
+  width: 300px;
+  border: 1px solid #bbb !important;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.toggleForm {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Basket */
+#orderConfirmation{
+  line-height: 1.4rem;
+  margin: 10px;
+}
+#sendOrder{
+  display: block;
+  margin: 50px auto;
+  padding: 5px 8px;
+  background-color: #F9DA6E;
+  font-weight: bold;
+
+}
+#basket h3{
+
+}
